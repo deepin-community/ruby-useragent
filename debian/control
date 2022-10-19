@@ -1,0 +1,26 @@
+Source: ruby-useragent
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Abhijith PA <abhijith@openmailbox.org>
+Build-Depends: debhelper (>= 9~), 
+               gem2deb,
+               ruby-rspec,
+               rake
+Standards-Version: 3.9.8
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-useragent.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-useragent
+Homepage: https://github.com/gshutler/useragent
+Testsuite: autopkgtest
+XS-Ruby-Versions: all
+
+Package: ruby-useragent
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, 
+         ${misc:Depends}, 
+         ruby | ruby-interpreter
+Description: HTTP User Agent parser
+ UserAgent is a Ruby library that parses and compares different HTTP User
+ Agents. Some of useragents it uses are edge, chrome, gecko, opera, vivaldi, 
+ webkit, iron.

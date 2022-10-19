@@ -1,0 +1,12 @@
+ruby-useragent (0.16.8-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 03:29:47 +0100
+
+ruby-useragent (0.16.8-1) unstable; urgency=medium
+
+  * Initial release (Closes: #846095)
+
+ -- Abhijith PA <abhijith@openmailbox.org>  Mon, 28 Nov 2016 18:52:07 +0530
